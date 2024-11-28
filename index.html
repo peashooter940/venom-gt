@@ -1,103 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuaca di Indonesia</title>
 </head>
 <body>
-
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
-
-<header>
-  <h2>Cities</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
-
-<footer>
-  <p>Footer</p>
-</footer>
-
+    <header>
+        <h1>Cuaca di Indonesia</h1>
+        <nav>
+            <ul>
+                <li><a href="#iklim">Iklim di Indonesia</a></li>
+                <li><a href="#musim">Musim</a></li>
+                <li><a href="#fenomena">Fenomena Cuaca</a></li>
+                <li><a href="#penjelasan cuaca">Penjelasan Cuaca</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="iklim">
+            <h2>Iklim Indonesia</h2>
+            <p>Indonesia memiliki iklim tropis yang ditandai dengan suhu hangat dan kelembapan tinggi sepanjang tahun. Letak geografis Indonesia yang berada di garis Khatulistiwa, antara 6° LU hingga 11° LS, berperan penting dalam menentukan karakteristik iklimnya
+<br>
+                <br>Karakteristik Iklim
+              <br>Suhu: Rata-rata suhu di Indonesia berkisar antara 23°C hingga 28°C, tergantung pada lokasi. Wilayah pesisir cenderung lebih hangat, sedangkan daerah pegunungan memiliki suhu yang lebih rendah
+                <br>Kelembapan: Kelembapan udara di Indonesia relatif tinggi, yang berkontribusi pada curah hujan yang tinggi sepanjang tahun. Curah hujan tahunan rata-rata di Indonesia juga tergolong tinggi, dengan beberapa daerah menerima lebih dari 3.000 mm per tahun
+                <br>Musim: Indonesia mengalami dua musim utama, yaitu musim hujan dan musim kemarau. Musim hujan biasanya berlangsung dari bulan November hingga Maret, dipengaruhi oleh angin muson barat daya, sedangkan musim kemarau terjadi dari bulan April hingga Oktober, dipengaruhi oleh angin muson timur laut</p>
+            <!-- Lanjutan konten iklim -->
+        </section>
+        <section id="musim">
+            <h2>Musim di Indonesia</h2>
+            <p>Musim di Indonesia Indonesia hanya memiliki dua musim utama, yaitu musim hujan dan musim kemarau. Keberadaan dua musim ini disebabkan oleh posisi geografis Indonesia yang terletak di garis Khatulistiwa, yang mempengaruhi pola angin muson dan curah hujan.
+<br>
+               <br> Musim Hujan
+              <br>  Waktu: Musim hujan biasanya berlangsung dari bulan November hingga Maret.
+              <br>  Ciri-ciri: Pada musim ini, terjadi peningkatan curah hujan yang signifikan di hampir seluruh wilayah Indonesia. Hujan dapat terjadi hampir setiap hari, dan intensitasnya bervariasi tergantung pada lokasi. Beberapa daerah, terutama di bagian barat Indonesia, seperti Sumatera dan Jawa, mengalami hujan yang lebih lebat dibandingkan dengan daerah timur.
+                <br>
+               <br> Musim Kemarau
+                Waktu: Musim kemarau berlangsung dari bulan April hingga Oktober.
+                Ciri-ciri: Pada musim ini, curah hujan berkurang drastis, dan cuaca cenderung lebih kering. Suhu udara bisa meningkat, terutama di siang hari. Musim kemarau juga sering kali ditandai dengan angin kencang dan kondisi yang lebih panas, terutama pada puncak musim kemarau yang biasanya terjadi pada bulan Agustus.
+                Pengaruh Musim
+                Musim di Indonesia memiliki pengaruh besar terhadap kehidupan masyarakat, pertanian, dan ekosistem. Musim hujan sangat penting untuk pertanian, karena menyediakan air yang dibutuhkan untuk tanaman. Namun, curah hujan yang berlebihan juga dapat menyebabkan bencana seperti banjir dan tanah longsor. Di sisi lain, musim kemarau dapat menyebabkan kekeringan, yang berdampak pada ketersediaan air dan hasil pertanian. Secara keseluruhan, pemahaman tentang musim di Indonesia sangat penting untuk perencanaan pertanian, pengelolaan sumber daya air, dan mitigasi bencana alam.
+               
+                </p>
+            <!-- Lanjutan konten musim -->
+        </section>
+        <section id="fenomena">
+            <h2>Fenomena Cuaca</h2>
+            <p>Indonesia, sebagai negara tropis, mengalami berbagai fenomena cuaca yang dipengaruhi oleh iklim dan kondisi geografisnya...</p>
+            <!-- Lanjutan konten fenomena -->
+        </section>
+   
+    </section>
+    <section id="penjelasan cuaca">
+        <!-- Kotak Penjelasan Cuaca -->
+        <section id="kotak-cuaca">
+            <h2>Penjelasan Cuaca</h2>
+            <div class="container">
+                <div class="box">
+                    <div class="icon">🌞</div>
+                    <h3>Cerah</h3>
+                    <p>Cuaca sangat cerah tanpa awan. Matahari bersinar terang sepanjang hari.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">🌤️</div>
+                    <h3>Cerah Berawan</h3>
+                    <p>Cuaca sebagian besar cerah dengan beberapa awan di langit.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">⛅</div>
+                    <h3>Berawan</h3>
+                    <p>Awan menutupi sebagian besar langit, tapi masih ada sinar matahari.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">🌧️</div>
+                    <h3>Hujan Ringan</h3>
+                    <p>Turun hujan ringan, mungkin hanya rintik-rintik atau gerimis.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">⛈️</div>
+                    <h3>Hujan Lebat</h3>
+                    <p>Hujan deras disertai dengan kemungkinan petir dan angin kencang.</p>
+                </div>
+                  <!-- Lanjutan konten penjelasan cuaca -->
+        </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cuaca di Indonesia.</p>
+    </footer>
 </body>
 </html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0eafb, #c9c9ff);
+    color: #333;
+}
+ 
+header {
+    background: rgb(253, 190, 200);
+    color: #1a1818;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+ 
+nav ul li a {
+    color: #111010;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+ 
+nav ul li a:hover {
+    color: #fffdfc;
+}
+ 
+main {
+    padding: 20px;
+}
+ 
+section {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+ 
+h2 {
+    color: rgb(185, 66, 86);
+}
+ 
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(255, 172, 172);
+    color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+ 
+/* CSS untuk Kotak Cuaca */
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.box {
+    background-color: #ffffff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+ 
+.box:hover {
+    transform: translateY(-10px);
+}
+ 
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+ 
+h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+ 
+p {
+    font-size: 0.9em;
+    color: #666;
+}
+ 
